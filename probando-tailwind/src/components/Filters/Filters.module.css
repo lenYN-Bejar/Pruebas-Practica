@@ -1,0 +1,30 @@
+
+.side{
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.filterHeader{
+  font-family: 'Raleway', sans-serif;
+  padding: 5px;
+}
+
+.buttonFilter{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.2em;
+  padding: 1em;
+  background-color: transparent;
+  border: 1px solid rgba(225,225,225, 0.4);
+  border-right: 1px solid rgba(225,225,225, 0.2);
+  border-bottom: 1px solid rgba(225,225,225, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  transition: .5s;
+}
+.buttonFilter:hover {
+  transform: translateY(-20px);
+}
